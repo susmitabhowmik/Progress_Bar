@@ -63,6 +63,7 @@
             this.label2.Size = new System.Drawing.Size(168, 63);
             this.label2.TabIndex = 2;
             this.label2.Text = "Reset";
+            this.label2.Click += new System.EventHandler(this.Label2_Click);
             // 
             // richTextBox1
             // 
